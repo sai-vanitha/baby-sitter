@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+     width:25%;
+    display:inline-block;
+ }
+ header{
+    padding: 10px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    font-size: 1.5rem;
+    border: 2px solid;
+
+}
+a {
+ text-decoration: none;
+ text-align: center;
+ /* width:2%; */
+ }
+
+ .main-container{
+    background-image: url(https://th.bing.com/th/id/OIP.nCSFYrcs7jdD1bkFeI0hQgHaE8?w=230&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7;);
+    position: relative;
+    background-size: 100px;
+    display: flex;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+}
+.container{
+    width: 200px;
+    height: 200px;
+    padding: 50;
+    border-radius: 30px;
+    border: 2px solid;
+    position: absolute;
+    bottom: 66px;
+    right: 60px;
+    text-align: center;
+    background-color: white;
+    color: #000;
+    align-items: center;
+    font-size: 1.2rem;
+}
+span{
+    background-color: orangered;
+    border: 2px soild;
+    width: 150px;
+    border-radius: 30px;
+}
+ a:hover{
+    background-color: blueviolet;
+    }
+    menu:hover{
+        background-color: blueviolet;
+    }
+nav{
+    display: flex;
+    gap:40px;
+}
+@media screen and (width <= 500px) and (width >=800px){
+    .nav{
+       display: none;
+    }
+
+    .icon{
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+
